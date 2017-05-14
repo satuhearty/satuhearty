@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Your Wedding Web Designer">
+  <meta name="author" content="satuhearty">
+
+  <title>Satu Hearty | Wedding Web Designer</title>
+
+  <link rel="shortcut icon" href="../../img/favicon.png">
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="../../css/bootstrap.min.css" type="text/css">
+
+  <!-- Custom Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css" type="text/css">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="../../css/animate.min.css" type="text/css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../css/main.css" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+
+<body id="page-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <img src="../../img/satuhearty.png" class="brand-logo" />
+        <span class="brand-name">satu</span>hearty
+      </a>
+    </div>
+  </div>
+</nav>
+
+  <section id="form" class="bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading">Let's Start Your Project!</h2>
+        <hr class="light">
+        <p></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <form name="sentMessage" id="contactForm" action="//formspree.io/satuhearty@gmail.com" method="POST" novalidate>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="form-group">
+                <p>What is the best way to contact you?</p>
+                <input class="form-control" id="contact" name="contact" required data-validation-required-message="Please enter a method to contact you.">
+              </div>
+              <div class="form-group">
+                <p>What do you want the url for your wedding website to be?<br>Example: mukmeenmaisarah.com</p>
+                <input class="form-control" id="url" name="url" required data-validation-required-message="Please enter a website url.">
+              </div>
+              <div class="form-group">
+                <p>Do you have any examples of wedding websites that you prefer?</p>
+                <input class="form-control" id="example" name="example">
+              </div>
+              <div class="form-group">
+                <p>What is your wedding theme, if any?</p>
+                <input class="form-control" id="theme" name="theme">
+              </div>
+              <div class="form-group">
+                <p>What is your wedding color theme?</p>
+                <input class="form-control" id="color" name="color">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <br><br>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <h2 class="section-heading">Website Sections</h2>
+              <hr class="light">
+              <p></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h4>Check the feature/sections below that you would like to have on your website.</h4>
+              <br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div id="section-one" class="form-group disabled">
+                <div class="checkbox">
+                  <label class="checkbox-text">
+                    <input type="checkbox" class="js-enable-section" id="biography" name="biography" data-section-id="section-one">Bride & Groom Biography
+                  </label>
+                </div>
+                <p>This is a section for you to provide some details or short biography about you and your future spouse.</p>
+                <textarea disabled class="form-control js-section-one-form" placeholder="Bride details ..." required data-validation-required-message="Please enter a method to contact you."></textarea>
+                <br>
+                <textarea disabled class="form-control js-section-one-form" placeholder="Groom details ..." required data-validation-required-message="Please enter a method to contact you."></textarea>
+              </div>
+              <div id="section-two" class="form-group disabled">
+                <div class="checkbox">
+                  <label class="checkbox-text">
+                    <input type="checkbox" class="js-enable-section" id="our-story" name="our-story" data-section-id="section-two">Our Story
+                  </label>
+                </div>
+                <p>A section for you to share your love story!<br>Some ideas would be "When did you two meet?", "How did you two meet?", "When did you get engaged". You can see an example at <a href="http://mukmeenmaisarah.com" class="links" target="_blank">mukmeenmaisarah.com</a> (Our Story section).</p>
+                <textarea disabled class="form-control js-section-two-form" placeholder="Our story details with dates ..." required data-validation-required-message="Please enter a method to contact you."></textarea>
+              </div>
+              <div id="section-three" class="form-group disabled">
+                <div class="checkbox">
+                  <label class="checkbox-text">
+                    <input type="checkbox" class="js-enable-section" id="event-details" name="event-details" data-section-id="section-three">Event Details
+                  </label>
+                </div>
+                <p>Dates, locations (both sides if you want to include both of them).<br>If you can send photos of your wedding cards that would be really helpful! See <a href="http::/mukmeenmaisarah.com" class="links" target="_blank">mukmeenmaisarah.com</a> (Events section) as an example.</p>
+                <textarea disabled class="form-control js-section-three-form" placeholder="Event details ..." required data-validation-required-message="Please enter a method to contact you."></textarea>
+              </div>
+              <div id="section-four" class="form-group disabled">
+                <div class="checkbox">
+                  <label class="checkbox-text">
+                    <input type="checkbox" class="js-enable-section" id="photo-gallery" name="photo-gallery" data-section-id="section-four">Photo Gallery
+                  </label>
+                </div>
+                <p>This section is for you to include some pictures of you and your future spouse.<br>It can be any picture that you want but we would suggest pictures of your engagement day, family members etc. 8-12 pictures is a reasonable number to put in this section but it's totally up to you!<br>Upload your photos to the google drive folder.</p>
+              </div>
+              <div id="section-five" class="form-group disabled">
+                <div class="checkbox">
+                  <label class="checkbox-text">
+                    <input type="checkbox" class="js-enable-section" id="rsvp" name="rsvp" data-section-id="section-five">RSVP
+                  </label>
+                </div>
+                <p>So that you know who's coming!<br>The RSVPs will go directly to your preferred email and would be easily being exported to a spreadsheet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <br><br>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-xl wow tada">Submit</button>
+              <input type="hidden" name="_next" value="/" />
+              <input type="hidden" name="_subject" value="Satu Hearty Request" />
+              <input type="text" name="_gotcha" style="display:none" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/form.js"></script>
+
+</body>
+
+</html>

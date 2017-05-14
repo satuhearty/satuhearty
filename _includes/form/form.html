@@ -13,12 +13,20 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <div class="form-group">
+                <p>Your Name.</p>
+                <input class="form-control" id="name" name="name" placeholder="Your name ..." required data-validation-required-message="Please enter your name.">
+              </div>
+              <div class="form-group">
+                <p>Your Email.</p>
+                <input class="form-control" id="email" name="email" placeholder="Your email address ..." required data-validation-required-message="Please enter your email address.">
+              </div>
+              <div class="form-group">
                 <p>What is the best way to contact you?</p>
-                <input class="form-control" id="contact" name="contact" required data-validation-required-message="Please enter a method to contact you.">
+                <input class="form-control" id="contact" name="contact" placeholder="Email, Whatsapp, Facebook etc. ..." required data-validation-required-message="Please enter a method to contact you.">
               </div>
               <div class="form-group">
                 <p>What do you want the url for your wedding website to be?<br>Example: mukmeenmaisarah.com</p>
-                <input class="form-control" id="url" name="url" required data-validation-required-message="Please enter a website url.">
+                <input class="form-control" id="url" name="url" placeholder="Your website url ..." required data-validation-required-message="Please enter a website url.">
               </div>
               <div class="form-group">
                 <p>Do you have any examples of wedding websites that you prefer?</p>
@@ -103,7 +111,7 @@
               <div id="success"></div>
               <button type="submit" class="btn btn-xl wow tada">Submit</button>
               <input type="hidden" name="_next" value="/" />
-              <input type="hidden" name="_subject" value="Satu Hearty Request" />
+              <input type="hidden" name="_subject" value="Wedding details submission" />
               <input type="text" name="_gotcha" style="display:none" />
             </div>
           </div>

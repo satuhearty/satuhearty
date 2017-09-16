@@ -93,8 +93,6 @@ header .header-content .header-content-inner p { font-weight: 300; color: rgba(2
 
 .testimonial-img { margin: 0 auto; min-width: 5em; border: 4px solid white; }
 
-.testimonial-content { text-align: justify; }
-
 .testimonial-carousel-indicators { bottom: -35px; }
 .testimonial-carousel-indicators .testimonial-carousel-indicator { width: 15px; height: 15px; margin: 0 3px; }
 

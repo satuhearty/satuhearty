@@ -341,7 +341,7 @@ header {
 .testimonial-img {
   margin: 0 auto;
   min-width: 5em;
-  border: 7px solid white;
+  border: 4px solid white;
 }
 
 .testimonial-content {
@@ -349,7 +349,12 @@ header {
 }
 
 .testimonial-carousel-indicators {
-  bottom: -30px;
+  bottom: -35px;
+  .testimonial-carousel-indicator {
+    width: 15px;
+    height: 15px;
+    margin: 0 3px;
+  }
 }
 
 // Team Member Styles

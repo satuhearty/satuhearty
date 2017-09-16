@@ -89,6 +89,14 @@ header .header-content .header-content-inner p { font-weight: 300; color: rgba(2
   .portfolio-box:hover .portfolio-box-caption { opacity: 1; }
   .portfolio-box:hover .img-responsive { transform: scale(1.1); } }
 
+.vertical-center { display: flex; align-items: center; }
+
+.testimonial-img { margin: 0 auto; min-width: 5em; border: 7px solid white; }
+
+.testimonial-content { text-align: justify; }
+
+.testimonial-carousel-indicators { bottom: -30px; }
+
 .team-member { text-align: center; margin-bottom: 50px; }
 .team-member img { margin: 0 auto; border: 7px solid #F35369; }
 .team-member h4 { margin-top: 25px; margin-bottom: 0; text-transform: none; }

@@ -38,6 +38,19 @@
     }
   });
 
+  $('.submit-form').on('click', function(e) {
+    $.ajax({
+      url: '//formspree.io/satuhearty@gmail.com',
+      method: 'POST',
+      data: $('#contactForm').serialize(),
+      dataType: 'json',
+      complete: function() {
+        document.getElementById('contactForm').reset();
+        $('.submit-form').prop('disabled', true);
+      }
+    });
+  });
+
   // Initialize WOW.js Scrolling Animations
   new WOW().init();
 

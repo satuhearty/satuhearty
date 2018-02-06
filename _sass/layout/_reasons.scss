@@ -1,0 +1,41 @@
+// Reasons Page
+
+.reasons {
+  &-row {
+    margin: 0;
+  }
+  &-title {
+    margin-bottom: 1em;
+  }
+  &-description {
+    padding: 2em 2em;
+  }
+  &-box {
+    padding: 0;
+    background-color: rgba(160, 119, 171, 0.8);
+  }
+  &-image {
+    max-width: 100%;
+  }
+  &-number {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 24px;
+    background-image: url("https://www.myregistry.com/Images/10_Reasons/y2017/Heart.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: initial;
+    height: 46px;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  .is-table-row {
+    display: table;
+  }
+  .is-table-row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+  }
+}

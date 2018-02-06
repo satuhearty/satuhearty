@@ -1,0 +1,13 @@
+// Form
+.disabled {
+  color: $theme-grey;
+}
+
+.checkbox-text {
+  @include sans-serif-font;
+  font-size: 18px;
+}
+
+.submit-form {
+  background-color: $theme-orange
+}

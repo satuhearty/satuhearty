@@ -37,9 +37,27 @@
 $theme-primary: #F35369;
 $theme-dark: #222;
 $theme-grey: #CCC5C5;
-$theme-seconday: #A077AB;
+$theme-secondary: #A077AB;
 $theme-tertiary: #A0B782;
+$theme-orange: rgb(236, 201, 91);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import 'mixins';
-@import 'base';
+@import 'libs/mixins';
+
+// Base
+@import 'base/base';
+
+// Component
+@import 'components/button';
+@import 'components/form';
+
+// Layout
+@import 'layout/contact';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/portfolio';
+@import 'layout/sections';
+@import 'layout/team';
+@import 'layout/testimonial';
+@import 'layout/reasons';

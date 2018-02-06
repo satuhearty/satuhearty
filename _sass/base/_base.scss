@@ -1,0 +1,139 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  @include serif-font;
+  -webkit-tap-highlight-color: $theme-dark;
+}
+
+hr {
+  border-color: $theme-primary;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+hr.light {
+  border-color: white;
+}
+
+a {
+  @include transition-all;
+  color: $theme-primary;
+  &:hover,
+  &:focus {
+    color: darken($theme-primary, 10%);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include sans-serif-font;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.bg-primary {
+  background-color: $theme-primary;
+}
+
+.bg-secondary {
+  background-color: $theme-secondary;
+  color: white;
+}
+
+.bg-tertiary {
+  background-color: $theme-tertiary;
+  color: white;
+}
+
+.bg-dark {
+  background-color: $theme-dark;
+  color: white;
+}
+
+.text-faded {
+  color: rgba(white, .7);
+}
+
+section {
+  padding: 100px 0;
+}
+
+footer {
+  padding: 15px 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.focus-hover {
+  transition: all .2s ease-in-out;
+}
+
+.focus-hover:hover {
+  transform: scale(1.1);
+}
+
+.links {
+  @include transition-all;
+  color: $theme-dark;
+  &:hover,
+  &:focus {
+    color: darken($theme-dark, 10%);
+  }
+}
+
+.form-group textarea.form-control {
+  height: 188px;
+}
+
+.form-group input.form-control {
+  padding: 25px;
+}
+
+// Bootstrap Overrides
+.text-primary {
+  color: $theme-primary;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+// Extras
+// -- Highlight Color Customization
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: $theme-dark;
+}
+
+::selection {
+  color: white;
+  text-shadow: none;
+  background: $theme-dark;
+}
+
+img::selection {
+  color: white;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+
